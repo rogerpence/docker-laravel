@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+
+
+# UID/GID map to unknown user/group, $HOME=/ (the default when no home directory is defined)
+
+eval $( fixuid )
+
+# UID/GID now match user/group, $HOME has been set to user's home directory
+
+
+##
+# Ensure /.composer exists and is writable
+#
+
+# if [ ! -d /.composer ]; then
+#     mkdir /.composer
+# fi
+
+#chown www-data:www-data .composer
+# chmod -R ugo+rw /.composer
+
+# https://stackoverflow.com/questions/48619445/permission-denied-error-using-laravel-docker
+# This link says to do
+chown -R www-data:www-data /var/www
+
+#chown -R www-data:www-data /var/www/html/storage
+
+# I'm not sure if this is necessary, but it lets members of the 
+# www-data group write to a given folder. 
+
+chmod -R 775 /var/www
+
+##
+# Run a command or start supervisord
+#
+if [ $# -gt 0 ];then
+    # If we passed a command, run it
+    exec "$@"
+else
+    # Otherwise start supervisord
+    /usr/bin/supervisord
+fi
+
