@@ -1,0 +1,78 @@
+2018-10-29 04:23:23,132 INFO supervisord started with pid 15
+2018-10-29 04:23:24,134 INFO spawned: 'nginx' with pid 18
+2018-10-29 04:23:24,135 INFO spawned: 'php-fpm' with pid 19
+2018-10-29 04:23:24,145 INFO exited: nginx (exit status 1; not expected)
+2018-10-29 04:23:24,169 INFO exited: php-fpm (exit status 78; not expected)
+2018-10-29 04:23:25,171 INFO spawned: 'nginx' with pid 20
+2018-10-29 04:23:25,172 INFO spawned: 'php-fpm' with pid 21
+2018-10-29 04:23:25,182 INFO exited: nginx (exit status 1; not expected)
+2018-10-29 04:23:25,209 INFO exited: php-fpm (exit status 78; not expected)
+2018-10-29 04:23:27,212 INFO spawned: 'nginx' with pid 22
+2018-10-29 04:23:27,213 INFO spawned: 'php-fpm' with pid 23
+2018-10-29 04:23:27,223 INFO exited: nginx (exit status 1; not expected)
+2018-10-29 04:23:27,249 INFO exited: php-fpm (exit status 78; not expected)
+2018-10-29 04:23:30,050 WARN received SIGINT indicating exit request
+2018-10-29 04:23:30,050 INFO waiting for nginx to die
+2018-10-29 04:23:40,499 INFO supervisord started with pid 16
+2018-10-29 04:23:41,501 INFO spawned: 'nginx' with pid 19
+2018-10-29 04:23:41,502 INFO spawned: 'php-fpm' with pid 20
+2018-10-29 04:23:41,512 INFO exited: nginx (exit status 1; not expected)
+2018-10-29 04:23:41,539 INFO exited: php-fpm (exit status 78; not expected)
+2018-10-29 04:23:42,541 INFO spawned: 'nginx' with pid 21
+2018-10-29 04:23:42,542 INFO spawned: 'php-fpm' with pid 22
+2018-10-29 04:23:42,552 INFO exited: nginx (exit status 1; not expected)
+2018-10-29 04:23:42,577 INFO exited: php-fpm (exit status 78; not expected)
+2018-10-29 04:23:44,580 INFO spawned: 'nginx' with pid 23
+2018-10-29 04:23:44,581 INFO spawned: 'php-fpm' with pid 24
+2018-10-29 04:23:44,591 INFO exited: nginx (exit status 1; not expected)
+2018-10-29 04:23:44,617 INFO exited: php-fpm (exit status 78; not expected)
+2018-10-29 04:23:47,623 INFO spawned: 'nginx' with pid 25
+2018-10-29 04:23:47,626 INFO spawned: 'php-fpm' with pid 26
+2018-10-29 04:23:47,649 INFO exited: nginx (exit status 1; not expected)
+2018-10-29 04:23:47,669 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2018-10-29 04:23:47,681 INFO exited: php-fpm (exit status 78; not expected)
+2018-10-29 04:23:48,682 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2018-10-29 04:24:26,447 INFO supervisord started with pid 15
+2018-10-29 04:24:27,449 INFO spawned: 'nginx' with pid 18
+2018-10-29 04:24:27,450 INFO spawned: 'php-fpm' with pid 19
+2018-10-29 04:24:27,460 INFO exited: nginx (exit status 1; not expected)
+2018-10-29 04:24:27,485 INFO exited: php-fpm (exit status 78; not expected)
+2018-10-29 04:24:28,487 INFO spawned: 'nginx' with pid 20
+2018-10-29 04:24:28,488 INFO spawned: 'php-fpm' with pid 21
+2018-10-29 04:24:28,499 INFO exited: nginx (exit status 1; not expected)
+2018-10-29 04:24:28,525 INFO exited: php-fpm (exit status 78; not expected)
+2018-10-29 04:24:30,528 INFO spawned: 'nginx' with pid 22
+2018-10-29 04:24:30,530 INFO spawned: 'php-fpm' with pid 23
+2018-10-29 04:24:30,545 INFO exited: nginx (exit status 1; not expected)
+2018-10-29 04:24:30,570 INFO exited: php-fpm (exit status 78; not expected)
+2018-10-29 04:24:33,574 INFO spawned: 'nginx' with pid 24
+2018-10-29 04:24:33,575 INFO spawned: 'php-fpm' with pid 25
+2018-10-29 04:24:33,585 INFO exited: nginx (exit status 1; not expected)
+2018-10-29 04:24:33,597 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2018-10-29 04:24:33,609 INFO exited: php-fpm (exit status 78; not expected)
+2018-10-29 04:24:34,610 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2018-10-29 04:29:37,361 INFO supervisord started with pid 15
+2018-10-29 04:29:38,363 INFO spawned: 'nginx' with pid 18
+2018-10-29 04:29:38,364 INFO spawned: 'php-fpm' with pid 19
+2018-10-29 04:29:38,375 INFO exited: nginx (exit status 1; not expected)
+2018-10-29 04:29:38,414 INFO exited: php-fpm (exit status 78; not expected)
+2018-10-29 04:29:39,416 INFO spawned: 'nginx' with pid 20
+2018-10-29 04:29:39,417 INFO spawned: 'php-fpm' with pid 21
+2018-10-29 04:29:39,427 INFO exited: nginx (exit status 1; not expected)
+2018-10-29 04:29:39,451 INFO exited: php-fpm (exit status 78; not expected)
+2018-10-29 04:29:41,455 INFO spawned: 'nginx' with pid 22
+2018-10-29 04:29:41,456 INFO spawned: 'php-fpm' with pid 23
+2018-10-29 04:29:41,465 INFO exited: nginx (exit status 1; not expected)
+2018-10-29 04:29:41,492 INFO exited: php-fpm (exit status 78; not expected)
+2018-10-29 04:29:44,497 INFO spawned: 'nginx' with pid 24
+2018-10-29 04:29:44,498 INFO spawned: 'php-fpm' with pid 25
+2018-10-29 04:29:44,515 INFO exited: nginx (exit status 1; not expected)
+2018-10-29 04:29:44,529 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2018-10-29 04:29:44,541 INFO exited: php-fpm (exit status 78; not expected)
+2018-10-29 04:29:45,542 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2018-10-29 04:30:36,776 CRIT Supervisor running as root (no user in config file)
+2018-10-29 04:30:36,777 INFO supervisord started with pid 15
+2018-10-29 04:30:37,779 INFO spawned: 'nginx' with pid 18
+2018-10-29 04:30:37,781 INFO spawned: 'php-fpm' with pid 19
+2018-10-29 04:30:38,817 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-10-29 04:30:38,817 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
